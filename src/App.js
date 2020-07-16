@@ -29,6 +29,8 @@ function App() {
 
     const response = await api.post('repositories', newRepository);
 
+    newRepository.id = response.data.id;
+
     if (response.status === 200) {
       //alert ('Repository added sucessfully!');
       setRepositories([... repositories, newRepository]);
