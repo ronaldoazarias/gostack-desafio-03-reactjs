@@ -30,7 +30,7 @@ function App() {
     const response = await api.post('repositories', newRepository);
 
     if (response.status === 200) {
-      alert ('Repository added sucessfully!');
+      //alert ('Repository added sucessfully!');
       setRepositories([... repositories, newRepository]);
     }
 
