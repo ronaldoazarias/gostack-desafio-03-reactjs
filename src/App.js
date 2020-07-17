@@ -18,7 +18,7 @@ function App() {
 
   async function handleAddRepository() {
     let newRepository = {
-      "title": "Front End ReactJS",
+      "title": "Desafio ReactJS",
       "url": "Ronaldo",
       "techs": [
         "Node.js",
